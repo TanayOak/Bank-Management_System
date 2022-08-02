@@ -1,0 +1,113 @@
+<html>
+<head>
+	<title> WELCOME TO BANK OF BRAVOS</title>
+	<link rel="stylesheet" type="text/css" href="bank.css">
+		 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
+		  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+</head>
+<body>
+    <div class="bgimage1">
+
+        <div class="slideshow-container">
+            
+          <div class="nav">
+			
+			<div class="nav1">
+                <h4><a href="home.html" style="color: inherit;"> BRAVOS BANK</a> </h4>
+			</div>
+
+			<div class="nav2">
+				<ul>
+					<li id="opt1"> HOME </li>
+					<li><a href="services.html" style="color: inherit;"> Services</a></li>
+                    <li><a href="login.html" style="color: inherit;"> Login</a></li>
+					<li><a href="aboutus.html" style="color: inherit;"> About-Us</a></li>
+					<li><a href="adminlogin.html" style="color: inherit;"> Admin Login</a></li>
+				</ul>
+			</div>
+             </div>
+
+ <div class="mySlides">
+    <img src="img1.jpg" style="width:100%;height: 84%;" class="imgh">
+    <div class="text">Invest In Your Future</div>
+    <div class="text1">Personal Loan</div>
+    <div class="text2">Apply for personal loan with just one click at 10.5%p.a
+     upto 5 lakhs with loan approval time less than 2hrs</div>
+     <button class="btnh"><a href="contact.html" style="color: inherit;">Contact Us</a></button>
+  </div>
+
+  <div class="mySlides">
+    <img src="img2.jpg" style="width:100%; height: 84%;" class="imgh">
+    <div class="text">we support your dreams</div>
+    <div class="text1">Home Loan</div>
+    <div class="text2">Apply for home loan with just one click at 8.05%p.a and get 24X7 online and offline support</div>
+    <button class="btnh"><a href="contact.html" style="color: inherit;">Contact Us</a></button>
+  </div>
+ 
+  <div class="mySlides">
+    <img src="img3.jpg" style="width:100%;height: 84%;" class="imgh">
+      <div class="text">invest in your career</div>
+      <div class="text1">Business Loans</div>
+      <div class="text2">Apply for business loan with just one click at lower rates and give a boost to your career</div>
+      <button class="btnh"><a href="contact.html" style="color: inherit;">Contact Us</a></button>
+  </div>
+  
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+    </div>
+    <footer>
+      <div class="cen1">
+        <div class="service1">
+          <i class="far fa-envelope"></i>
+            <a href="https://www.google.com/gmail/" style="color: inherit;"><h2>Bbank@gmail.com</h2></a>
+        </div>
+
+        <div class="service1">
+          <i class="fas fa-map-marker-alt"></i>
+          <a href=https://www.google.com/maps/search/9,101,Sunflower+Regency+Estate+Dombivli/@19.1993591,73.1072613,17z/data=!3m1!4b1 style="color: inherit;"><h2>Locate Us!</h2></a>
+        </div>
+           <div class="service1">
+          <i class="fas fa-phone"></i>
+          <h2>022 2597 0000</h2>
+        </div>
+          
+          <div class="service12">
+          <i class="far fa-smile-wink"></i>
+              <h2><a href="contact.html" style="color: inherit;">Contact Us</a></h2>
+        </div>
+          </div>
+    </footer>
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+    </script>
+
+</body>
+</html>
