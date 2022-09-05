@@ -1,6 +1,6 @@
 # Bank-Management_System
 
-The object of this project is to design and implement Bank Management System with user interface using PHP and MYSQL.
+The objective of this project is to design and implement Bank Management System with user interface using PHP and MYSQL.
 It includes the data management system of a Bank Management System which includes details of the customer, their accounts and transaction performed. All the complaints received by the Admin are handled by the Admins. This puts the user firmly in control of how the program flows and therefore, increases user satisfaction with program without wasting user time.
 
 ![image](https://user-images.githubusercontent.com/88525549/188429622-155a10f8-2af4-4968-97a9-d84ff7326803.png)
